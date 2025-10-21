@@ -4,6 +4,7 @@
 module Parser(pStmts) where
 
 import TinyLang
+import Types
 import Data.Text (Text)
 import Text.Megaparsec
 import qualified Text.Megaparsec.Char.Lexer as L
